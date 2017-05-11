@@ -7,7 +7,15 @@ export default class Post extends Component {
 
     render() {
         return (
-            <div>{this.props.post.content}</div>
+          <div className="row">
+            <div className="col s12">
+              <div className="card-panel">
+                <span className="blue-text text-darken-2">{this.props.post.content}</span>
+              </div>
+            </div>
+
+          </div>
+
         )
     }
 }
