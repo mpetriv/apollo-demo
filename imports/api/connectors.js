@@ -1,7 +1,7 @@
 import Sequelize from 'sequelize';
 
 // create the connection
-const db = new Sequelize('apollodemo', "root", null, {
+const db = new Sequelize('apollodemo', "root", "qwerty", {
     host: 'localhost',
     dialect: 'mysql'
 });
